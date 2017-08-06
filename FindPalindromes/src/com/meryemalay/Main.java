@@ -17,6 +17,9 @@ public class Main {
                 (Palindrome o1, Palindrome o2) -> o2.getLength() - o1.getLength();
         Collections.sort(palindromes, sortByLength);
 
+        if(limit > palindromes.size()){
+            return;
+        }
         for (int i = 0; i < limit; i++) {
             System.out.println(palindromes.get(i).toString());
         }

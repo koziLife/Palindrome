@@ -12,13 +12,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,8 +29,8 @@
       <file leaf-file-name="PalindromeFactoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/meryemalay/PalindromeFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+            <state relative-caret-position="670">
+              <caret line="88" column="112" lean-forward="false" selection-start-line="88" selection-start-column="105" selection-end-line="88" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,12 +38,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalindromeFactory.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PalindromeFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/meryemalay/PalindromeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="346">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,15 +83,15 @@
         <option value="$PROJECT_DIR$/src/com/meryemalay/Palindrom2.java" />
         <option value="$PROJECT_DIR$/src/com/meryemalay/PalindromFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/com/meryemalay/PalindromFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/meryemalay/PalindromeFactory.java" />
         <option value="$PROJECT_DIR$/src/com/meryemalay/Palindrom.java" />
         <option value="$PROJECT_DIR$/src/com/meryemalay/Palindrome.java" />
-        <option value="$PROJECT_DIR$/src/com/meryemalay/Main.java" />
         <option value="$PROJECT_DIR$/src/com/meryemalay/PalindromeFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/meryemalay/PalindromeFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/meryemalay/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="796" />
@@ -138,6 +144,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -226,31 +233,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PalindromeFactoryTest.whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.meryemalay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FindPalindroms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.meryemalay" />
-      <option name="MAIN_CLASS_NAME" value="com.meryemalay.PalindromeFactoryTest" />
-      <option name="METHOD_NAME" value="whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="PalindromeFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -264,6 +246,31 @@
       <option name="PACKAGE_NAME" value="com.meryemalay" />
       <option name="MAIN_CLASS_NAME" value="com.meryemalay.PalindromeFactoryTest" />
       <option name="METHOD_NAME" value="whenGivenTextHasPalindroms_ShouldReturnPalindroms" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.meryemalay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FindPalindroms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.meryemalay" />
+      <option name="MAIN_CLASS_NAME" value="com.meryemalay.PalindromeFactoryTest" />
+      <option name="METHOD_NAME" value="whenPalindromeListContainsGivenText_ShouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -292,19 +299,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasMoreThan3Palindroms_ShouldReturnTheLongest3" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasMoreThan3Palindroms_ShouldReturnTheLongest3" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasMoreThan3Palindroms_ShouldReturnTheLongest3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasMoreThan3Palindroms_ShouldReturnTheLongest3" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PalindromeFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" />
       </list>
     </recent_temporary>
   </component>
@@ -322,55 +329,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PalindromFactoryTest - 2017.08.06 at 18h 01m 18s.xml">
-      <configuration name="PalindromFactoryTest" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 38m 13s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromFactoryTest_whenGivenTextHasMoreThan3Palindroms_ShouldReturnTheLongest3 - 2017.08.06 at 17h 54m 08s.xml">
-      <configuration name="PalindromFactoryTest.whenGivenTextHasMoreThan3Palindroms_ShouldReturnTheLongest3" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 39m 19s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromFactoryTest_whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom - 2017.08.06 at 16h 31m 43s.xml">
-      <configuration name="PalindromFactoryTest.whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 40m 12s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromFactoryTest_whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom - 2017.08.06 at 16h 32m 48s.xml">
-      <configuration name="PalindromFactoryTest.whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 44m 17s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromFactoryTest_whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom - 2017.08.06 at 16h 33m 27s.xml">
-      <configuration name="PalindromFactoryTest.whenGivenTextHasPalindrom_ShouldNotReturnInnerPalindrom" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 44m 28s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromFactoryTest_whenGivenTextHasPalindroms_ShouldReturnPalindroms - 2017.08.06 at 16h 40m 47s.xml">
-      <configuration name="PalindromFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 44m 53s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromFactoryTest_whenGivenTextHasPalindroms_ShouldReturnPalindroms - 2017.08.06 at 16h 41m 03s.xml">
-      <configuration name="PalindromFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 46m 30s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromFactoryTest_whenGivenTextHasPalindroms_ShouldReturnPalindroms - 2017.08.06 at 16h 41m 23s.xml">
-      <configuration name="PalindromFactoryTest.whenGivenTextHasPalindroms_ShouldReturnPalindroms" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 50m 45s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromeFactoryTest - 2017.08.06 at 18h 09m 21s.xml">
-      <configuration name="PalindromeFactoryTest" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 51m 00s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromeFactoryTest - 2017.08.06 at 22h 39m 39s.xml">
-      <configuration name="PalindromeFactoryTest" configurationId="JUnit" />
+    <history-entry file="PalindromeFactoryTest_whenPalindromeListContainsGivenText_ShouldReturnTrue - 2017.08.06 at 23h 51m 24s.xml">
+      <configuration name="PalindromeFactoryTest.whenPalindromeListContainsGivenText_ShouldReturnTrue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="796" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596686" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48194444" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38055557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15277778" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06388889" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -399,16 +406,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991228" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596686" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22430556" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38055557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15277778" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06388889" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="545" y="191" width="350" height="460" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -429,6 +436,8 @@
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -455,7 +464,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -465,6 +478,8 @@
           <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -491,7 +506,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,6 +520,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -514,18 +535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/meryemalay/PalindromeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/meryemalay/PalindromeFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+        <state relative-caret-position="670">
+          <caret line="88" column="112" lean-forward="false" selection-start-line="88" selection-start-column="105" selection-end-line="88" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -534,10 +547,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/meryemalay/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/meryemalay/PalindromeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,7 @@
 package com.meryemalay;
 
+import com.sun.istack.internal.NotNull;
+
 import java.util.ArrayList;
 
 public class PalindromeFactory {
@@ -12,9 +14,12 @@ public class PalindromeFactory {
                 if(source.substring(i,i + 2).equals(reverse(source.substring(j-1, j+1)))){
                     if(isPalindrome(source.substring(i, j + 1))){
                         int length = j - i + 1;
-                        listOfPalindrome.add(new Palindrome(source.substring(i, j + 1), i, length));
-                        i += length / 2;
-                        break;
+                        String palindromeText = source.substring(i, j + 1);
+                        if(!contains(listOfPalindrome, palindromeText)) {
+                            listOfPalindrome.add(new Palindrome(source.substring(i, j + 1), i, length));
+                            i += length / 2;
+                            break;
+                        }
                     }
                 }
             }
@@ -34,5 +39,14 @@ public class PalindromeFactory {
             reverseStrBuilder.append(str.charAt(i));
         }
         return reverseStrBuilder.toString();
+    }
+
+    public boolean contains(@NotNull ArrayList<Palindrome> listOfPalindrome, String palindrome) {
+        for (Palindrome p: listOfPalindrome) {
+            if(p.getText().equals(palindrome)){
+                return true;
+            }
+        }
+        return false;
     }
 }
